@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MST - Assignment</title>
+  </head>
+  <body>
+    <h1 class="visually-hidden">Horizon Motors - Premium Car Dealership</h1>
+
+    <div style="display: none">
+      <include src="images/sprite.svg"></include>
+    </div>
+
+    <header class="page-header">
+      <div class="page-header__wrapper container">
+        <a
+          class="page-header__logo logo"
+          href="#"
+          aria-label="Horizon Motors Logo"
+          >Horizon</a
+        >
+
+        <div class="page-header__menu">
+          <button
+            class="page-header__toggle-nav hamburger"
+            type="button"
+            aria-label="Open menu"
+          >
+            <span class="visually-hidden">Open menu</span>
+            <span class="hamburger__line"></span>
+          </button>
+          <nav class="page-header__nav menu">
+            <h2 class="visually-hidden">Main menu</h2>
+            <ul class="page-header__nav-list menu__list">
+              <li class="menu__item"><a href="#">About</a></li>
+              <li class="menu__item"><a href="#">Catalog</a></li>
+              <li class="menu__item"><a href="#">Contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="promo container">
+        <h2 class="visually-hidden">Promotional Offer</h2>
+        <picture class="promo__img animation-show">
+          <img
+            src="images/advantages-1.webp"
+            srcset="images/advantages-1@2x.webp 2x"
+            alt="Luxury Car Showcase"
+          />
+        </picture>
+
+        <div class="promo__text">
+          <p class="promo__title animation-up">Luxury Vehicles Redefined</p>
+          <p class="promo__desc animation-up delay-1ms">
+            Performance meets elegance
+          </p>
+          <ul class="promo__list">
+            <li class="promo__item animation-up delay-2ms">
+              More than <span>500</span> premium vehicles in stock
+            </li>
+            <li class="promo__item animation-up delay-3ms">
+              <span>$3,000</span> instant trade-in bonus
+            </li>
+            <li class="promo__item animation-up delay-4ms">
+              <span>95%</span> customer satisfaction rate
+            </li>
+          </ul>
+          <button
+            class="promo__button button animation-up delay-5ms"
+            type="button"
+            aria-label="schedule test drive"
+          >
+            schedule test drive
+          </button>
+        </div>
+      </section>
+
+      <section class="advantages">
+        <h2 class="visually-hidden">Dealership Advantages</h2>
+
+        <div class="advantages__wrapper container">
+          <picture
+            class="advantages__img advantages__img--first animation-left"
+          >
+            <img
+              src="images/advantages-2.webp"
+              srcset="images/advantages-2@2x.webp 2x"
+              alt="Modern Automotive Showroom"
+            />
+          </picture>
+          <div class="advantages__center">
+            <ul class="advantages__list">
+              <li class="advantages__item animation-up">
+                Uncompromising vehicle quality. Rigorous inspection and
+                certification
+              </li>
+              <li class="advantages__item animation-up delay-1ms">
+                Personalized automotive experience: Find your perfect vehicle
+              </li>
+              <li class="advantages__item animation-up delay-2ms">
+                Premium financing options: Flexible plans tailored to your
+                budget
+              </li>
+              <li class="advantages__item animation-up delay-3ms">
+                Exceptional after-sales service: Comprehensive warranty and
+                support
+              </li>
+            </ul>
+            <button
+              class="advantages__button button animation-left delay-4ms"
+              type="button"
+              aria-label="explore inventory"
+            >
+              explore inventory
+            </button>
+          </div>
+          <picture
+            class="advantages__img advantages__img--second animation-right delay-5ms"
+          >
+            <img
+              src="images/car-lineup.webp"
+              srcset="images/car-lineup@2x.webp 2x"
+              alt="Premium Vehicle Collection"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <section class="сonsultation">
+        <div class="сonsultation__wrapper container">
+          <div class="consultation__wrapper-form animation-up delay-1ms">
+            <h2 class="сonsultation__title">Vehicle Consultation Request</h2>
+
+            <form
+              id="сonsultation"
+              class="сonsultation__form form"
+              action="https://echo.htmlacademy.ru"
+              method="POST"
+            >
+              <div class="form__items">
+                <p class="form__item">
+                  <input
+                    class="form__input"
+                    type="text"
+                    name="user__name"
+                    id="user__name"
+                    value=""
+                    placeholder="Name"
+                  />
+                  <label class="visually-hidden" for="user__name"
+                    >Your name</label
+                  >
+                </p>
+                <p class="form__item">
+                  <input
+                    class="form__input"
+                    type="email"
+                    name="user__email"
+                    id="user__email"
+                    value=""
+                    placeholder="E-mail"
+                  />
+                  <label class="visually-hidden" for="user__email"
+                    >Your e-mail</label
+                  >
+                </p>
+              </div>
+
+              <label class="form__checkbox-item">
+                <input
+                  type="checkbox"
+                  name="rules"
+                  class="visually-hidden"
+                  checked=""
+                />
+                <span class="form__checkbox-indicator"></span>
+                <span class="form__checkbox-text">I accept Privacy policy</span>
+              </label>
+              <input
+                type="submit"
+                class="сonsultation__submit button button--dark"
+                value="Request Consultation"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <h2 class="visually-hidden">Website footer</h2>
+      <section class="page-footer__menu container">
+        <h3 class="visually-hidden">Footer menu</h3>
+        <ul class="page-footer__menu-list menu__list">
+          <li class="menu__item animation-right delay-1ms">
+            <a href="#">Home page</a>
+          </li>
+          <li class="menu__item animation-right delay-2ms">
+            <a href="#">about dealership</a>
+          </li>
+          <li class="menu__item animation-right delay-3ms">
+            <a href="#">contact us</a>
+          </li>
+        </ul>
+      </section>
+
+      <div class="page-footer__bottom animation-left delay-5ms">
+        <div class="page-footer__bottom-wrapper container">
+          <div class="page-footer__info">
+            <a
+              class="page-footer__logo logo"
+              href="#"
+              aria-label="Horizon Motors Logo"
+              >Horizon</a
+            >
+
+            <section class="page-footer__socials">
+              <h3 class="visually-hidden">Follow us on social networks</h3>
+              <ul>
+                <li class="page-footer__socials-insta">
+                  <a href="#" rel="noopener nofollow" target="_blank"
+                    ><svg width="32" height="32">
+                      <use xlink:href="#icon-insta"></use></svg
+                    ><span class="visually-hidden">Instagram</span></a
+                  >
+                </li>
+                <li class="page-footer__socials-tiktok">
+                  <a href="#" rel="noopener nofollow" target="_blank"
+                    ><svg width="32" height="32">
+                      <use xlink:href="#icon-tiktok"></use></svg
+                    ><span class="visually-hidden">TikTok</span></a
+                  >
+                </li>
+                <li class="page-footer__socials-in">
+                  <a href="#" rel="noopener nofollow" target="_blank"
+                    ><svg width="32" height="32">
+                      <use xlink:href="#icon-in"></use></svg
+                    ><span class="visually-hidden">LinkedIn</span></a
+                  >
+                </li>
+                <li class="page-footer__socials-facebook">
+                  <a href="#" rel="noopener nofollow" target="_blank"
+                    ><svg width="32" height="32">
+                      <use xlink:href="#icon-facebook"></use></svg
+                    ><span class="visually-hidden">Facebook</span></a
+                  >
+                </li>
+                <li class="page-footer__socials-telegram">
+                  <a href="#" rel="noopener nofollow" target="_blank"
+                    ><svg width="32" height="32">
+                      <use xlink:href="#icon-telegram"></use></svg
+                    ><span class="visually-hidden">Telegram</span></a
+                  >
+                </li>
+                <li class="page-footer__socials-youtube">
+                  <a href="#" rel="noopener nofollow" target="_blank"
+                    ><svg width="32" height="32">
+                      <use xlink:href="#icon-youtube"></use></svg
+                    ><span class="visually-hidden">YouTube</span></a
+                  >
+                </li>
+              </ul>
+            </section>
+
+            <button
+              class="page-footer__order button"
+              type="button"
+              aria-label="book a test drive"
+            >
+              book test drive
+            </button>
+          </div>
+
+          <div class="page-footer__links">
+            <p class="page-footer__copyright">
+              &copy; 2024, Horizon Motors. All Rights Reserved.
+            </p>
+            <a
+              class="page-footer__policy"
+              href="#"
+              rel="noopener nofollow"
+              target="_blank"
+              >Privacy policy</a
+            >
+            <a
+              class="page-footer__terms"
+              href="#"
+              rel="noopener nofollow"
+              target="_blank"
+              >Terms of Use</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <section class="modal-order modal">
+      <h3 class="visually-hidden">Schedule Test Drive</h3>
+      <form id="order-form" class="form" action="" method="POST">
+        <p class="form__item">
+          <input
+            class="form__input"
+            type="text"
+            name="order__name"
+            id="order__name"
+            value=""
+            placeholder="Your name"
+          />
+          <label class="visually-hidden" for="order__name">Your name</label>
+        </p>
+        <p class="form__item">
+          <input
+            class="form__input"
+            type="tel"
+            name="order__number"
+            id="order__number"
+            value=""
+            placeholder="Your phone"
+          />
+          <label class="visually-hidden" for="order__number">Your phone</label>
+        </p>
+        <input
+          type="submit"
+          class="modal-order__button button button--dark"
+          value="Book Test Drive"
+        />
+      </form>
+      <button
+        type="button"
+        class="modal-order__close close"
+        tabindex="0"
+        aria-label="close modal window"
+      >
+        <span class="visually-hidden">close modal windows</span>
+      </button>
+    </section>
+
+    <div class="overlay"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
