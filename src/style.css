@@ -939,14 +939,14 @@ picture {
   background-color: #ffffff;
 }
 .consultation__wrapper-form::after {
+  display: block;
   position: absolute;
   bottom: 0;
   right: -70px;
   content: "";
   width: 250px;
   height: 285px;
-  /* background-image: url("../img/girl.png"); */
-  background-image: url("images/girl.webp");
+  background-image: url("images/happy-woman.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -961,21 +961,25 @@ picture {
   color: #38535d;
 }
 .сonsultation__submit {
+  margin: 0 auto;
+  
   padding: 18px 34px;
   font-size: 18px;
 }
 @media (min-width: 375px) {
   .consultation__wrapper-form::after {
-    right: -16px;
+    display: none;
   }
 }
 @media (min-width: 480px) {
   .сonsultation__submit {
+    margin: 0 auto;
     padding: 18px 50px;
   }
 }
 @media (min-width: 768px) {
   .сonsultation__submit {
+    margin: 0 auto;
     padding: 18px 54px;
     font-size: 20px;
   }
@@ -988,12 +992,13 @@ picture {
   .consultation__wrapper-form {
     padding: 30px;
     border-radius: 20px;
-    background-image: url("images/bg-girl.webp");
+    background-image: url("images/lots-of-cars.webp");
     background-repeat: no-repeat;
     background-position: center left 530px;
     background-size: contain;
   }
   .consultation__wrapper-form::after {
+    display: block;
     right: -55px;
     width: 400px;
     height: 456px;
@@ -1017,9 +1022,10 @@ picture {
     background-position: center left 600px;
   }
   .consultation__wrapper-form::after {
+    display: block;
     right: -30px;
     width: 500px;
-    height: 570px;
+    height: 600px;
   }
   .сonsultation__title {
     width: 500px;
@@ -1044,6 +1050,7 @@ picture {
     background-position: center left 640px;
   }
   .consultation__wrapper-form::after {
+    display: block;
     right: 200px;
     width: 597px;
     height: 680px;
@@ -1063,6 +1070,7 @@ picture {
     background-position: center right;
   }
   .consultation__wrapper-form::after {
+    display: block;
     right: 220px;
   }
   .сonsultation__title {
