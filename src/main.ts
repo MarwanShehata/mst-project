@@ -1,5 +1,6 @@
 import "./style.css";
 
+
 // singleton class to track user interactions
 class SiteInteractionLogger {
   private static instance: SiteInteractionLogger;

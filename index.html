@@ -5,6 +5,30 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MST - Assignment</title>
+    <style>
+      .consultation__wrapper-form::after {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: -70px;
+        content: "";
+        width: 250px;
+        height: 320px;
+        background-image: url("../public/images/happy-woman.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      @media (min-width: 960px) {
+        .consultation__wrapper-form {
+          padding: 30px;
+          border-radius: 20px;
+          background-image: url("https://i.imgur.com/U4w2Rr2.jpeg");
+          background-repeat: no-repeat;
+          background-position: center left 530px;
+          background-size: contain;
+        }
+      }
+    </style>
   </head>
   <body>
     <h1 class="visually-hidden">Horizon Motors - Premium Car Dealership</h1>
@@ -133,7 +157,10 @@
 
       <section class="сonsultation">
         <div class="сonsultation__wrapper container">
-          <div class="consultation__wrapper-form animation-up delay-1ms">
+          <div
+            class="consultation__wrapper-form animation-up delay-1ms"
+            style="background-image: url('../public/images/lots-of-cars.webp')"
+          >
             <h2 class="сonsultation__title">Vehicle Consultation Request</h2>
 
             <form
@@ -225,35 +252,44 @@
                 <li class="page-footer__socials-insta">
                   <a href="#" rel="noopener nofollow" target="_blank"
                     ><svg width="32" height="32">
-                      <use xlink:href="#icon-insta"></use></svg><span class="visually-hidden">Instagram</span></a
+                      <use xlink:href="#icon-insta"></use></svg
+                    ><span class="visually-hidden">Instagram</span></a
                   >
                 </li>
                 <li class="page-footer__socials-tiktok">
                   <a href="#" rel="noopener nofollow" target="_blank"
                     ><svg width="32" height="32">
-                      <use xlink:href="#icon-tiktok"></use></svg><span class="visually-hidden">TikTok</span></a
+                      <use xlink:href="#icon-tiktok"></use></svg
+                    ><span class="visually-hidden">TikTok</span></a
                   >
                 </li>
                 <li class="page-footer__socials-in">
                   <a href="#" rel="noopener nofollow" target="_blank"
                     ><svg width="32" height="32">
-                      <use xlink:href="#icon-in"></use></svg><span class="visually-hidden">LinkedIn</span></a
+                      <use xlink:href="#icon-in"></use></svg
+                    ><span class="visually-hidden">LinkedIn</span></a
                   >
                 </li>
                 <li class="page-footer__socials-facebook">
                   <a href="#" rel="noopener nofollow" target="_blank"
                     ><svg width="32" height="32">
-                      <use xlink:href="#icon-facebook"></use></svg><span class="visually-hidden">Facebook</span></a
+                      <use xlink:href="#icon-facebook"></use></svg
+                    ><span class="visually-hidden">Facebook</span></a
                   >
                 </li>
                 <li class="page-footer__socials-telegram">
-                  <a href="#" rel="noopener nofollow" target="_blank"><svg width="32" height="32">
-                      <use xlink:href="#icon-telegram"></use></svg><span class="visually-hidden">Telegram</span></a
+                  <a href="#" rel="noopener nofollow" target="_blank"
+                    ><svg width="32" height="32">
+                      <use xlink:href="#icon-telegram"></use></svg
+                    ><span class="visually-hidden">Telegram</span></a
                   >
                 </li>
                 <li class="page-footer__socials-youtube">
-                  <a href="#" rel="noopener nofollow" target="_blank"><svg width="32" height="32">
-                      <use xlink:href="#icon-youtube"></use></svg><span class="visually-hidden">YouTube</span></a>
+                  <a href="#" rel="noopener nofollow" target="_blank"
+                    ><svg width="32" height="32">
+                      <use xlink:href="#icon-youtube"></use></svg
+                    ><span class="visually-hidden">YouTube</span></a
+                  >
                 </li>
               </ul>
             </section>

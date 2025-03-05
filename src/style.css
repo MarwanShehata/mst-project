@@ -1,65 +1,23 @@
-/*--- Prata ---*/
+@font-face {
+  font-family: "Arial";
+  src: url("/fonts/Arial/Arial.eot") format("embedded-opentype"),
+    url("/fonts/Arial/Arial.woff2") format("woff2"),
+    url("/fonts/Arial/Arial.woff") format("woff"),
+    url("/fonts/Arial/Arial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: "Prata";
-  src: url(fonts/Prata/Prata.eot);
-  src: local("Prata") url("fonts/Prata/Prata.eot?#iefix")
-      format("embedded-opentype"),
-    url("fonts/Prata/Prata.woff2") format("woff2"),
-    url("fonts/Prata/Prata.woff") format("woff"),
-    url("fonts/Prata/Prata.ttf") format("truetype");
+  src: url("/fonts/Prata/Prata.eot") format("embedded-opentype"),
+    url("/fonts/Prata/Prata.woff2") format("woff2"),
+    url("/fonts/Prata/Prata.woff") format("woff"),
+    url("/fonts/Prata/Prata.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
-/*--- Arial ---*/
-@font-face {
-  font-family: "Arial";
-  src: url("fonts/Arial/Arial-Italic.eot");
-  src: local("Arial Italic"), local("Arial-Italic"),
-    url("fonts/Arial/Arial-Italic.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Arial/Arial-Italic.woff2") format("woff2"),
-    url("fonts/Arial/Arial-Italic.woff") format("woff"),
-    url("fonts/Arial/Arial-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Arial";
-  src: url("fonts/Arial/Arial-BoldItalic.eot");
-  src: local("Arial Bold Italic"), local("Arial-BoldItalic"),
-    url("fonts/Arial/Arial-BoldItalic.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Arial/Arial-BoldItalic.woff2") format("woff2"),
-    url("fonts/Arial/Arial-BoldItalic.woff") format("woff"),
-    url("../fonts/Arial/Arial-BoldItalic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Arial";
-  src: url("fonts/Arial/Arial.eot");
-  src: local("Arial") url("fonts/Arial/Arial.eot?#iefix")
-      format("embedded-opentype"),
-    url("fonts/Arial/Arial.woff2") format("woff2"),
-    url("fonts/Arial/Arial.woff") format("woff"),
-    url("fonts/Arial/Arial.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Arial";
-  src: url("fonts/Arial/Arial-Bold.eot");
-  src: local("Arial Bold"), local("Arial-Bold"),
-    url("fonts/Arial/Arial-Bold.eot?#iefix") format("embedded-opentype"),
-    url("fonts/Arial/Arial-Bold.woff2") format("woff2"),
-    url("fonts/Arial/Arial-Bold.woff") format("woff"),
-    url("fonts/Arial/Arial-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -403,7 +361,7 @@ picture {
   opacity: 0.7;
 }
 .form input[type="checkbox"]:checked + .form__checkbox-indicator {
-  background-image: url("images/icon-check.svg");
+  background-image: url("https://d3radmvhubirpc.cloudfront.net/c2kgbq%2Fpreview%2F65053316%2Fmain_large.png?response-content-disposition=inline%3Bfilename%3D%22main_large.png%22%3B&response-content-type=image%2Fpng&Expires=1741146923&Signature=CHGz9JYmwGD3GDsHZHkmDAX9oKs1KwLyc0NlzYo-c1yhuLWRwUor-gqcHHBvzGLFaNmb6cfsdxtyzEjdYmPZXhwEaNBTT0URu2d9KAjqRjPkEil5vw~2JhwJ6GONEyy9OTP8w2ro95f~Ev5vqpWn0oI8NeVxBBCXCXbR7vI9TZoVFjsg2cmNjXuBZgd1J8XkMqiqI16EB4OK4ApTD2PihNuoTq3cgTiofSpAWu55c0oh4x2P000XOTHVdf6JV1wGyPEGdidCEQFO4WzQP29gdW8ryS9htOHaqpp-vsFybbS6stM9yCz8~xtu-ijI30HRIo5HGWLAo5uJGECFlTvOMQ__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ");
   background-position: center center;
   background-size: 90%;
   border: 1px solid #405d65;
@@ -413,7 +371,7 @@ picture {
   opacity: 1;
 }
 .form input[type="checkbox"]:disabled + .form__checkbox-indicator {
-  background-image: url("images/icon-check.svg");
+  background-image: url("https://d3radmvhubirpc.cloudfront.net/c2kgbq%2Fpreview%2F65053316%2Fmain_large.png?response-content-disposition=inline%3Bfilename%3D%22main_large.png%22%3B&response-content-type=image%2Fpng&Expires=1741146923&Signature=CHGz9JYmwGD3GDsHZHkmDAX9oKs1KwLyc0NlzYo-c1yhuLWRwUor-gqcHHBvzGLFaNmb6cfsdxtyzEjdYmPZXhwEaNBTT0URu2d9KAjqRjPkEil5vw~2JhwJ6GONEyy9OTP8w2ro95f~Ev5vqpWn0oI8NeVxBBCXCXbR7vI9TZoVFjsg2cmNjXuBZgd1J8XkMqiqI16EB4OK4ApTD2PihNuoTq3cgTiofSpAWu55c0oh4x2P000XOTHVdf6JV1wGyPEGdidCEQFO4WzQP29gdW8ryS9htOHaqpp-vsFybbS6stM9yCz8~xtu-ijI30HRIo5HGWLAo5uJGECFlTvOMQ__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ");
   background-position: center center;
   opacity: 0.5;
 }
@@ -680,7 +638,7 @@ picture {
   content: "";
   width: 30px;
   height: 30px;
-  background-image: url("images/icon-marker.svg");
+  background-image: url("https://pouch.jumpshare.com/preview/QRv_1WXsMpe7nckgkc3TQPjKOomd-AA3JsCCeNYOjW3VtIE7_BOhk_fJkPkPBWhToeF-Lg7KaK0rVHGtce5XekLyxfXrd9yd7ZbT-J-x-KA");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -811,7 +769,7 @@ picture {
   content: "";
   width: 50px;
   height: 41px;
-  background-image: url("images/icon-marker-list.svg");
+  background-image: url("https://pouch.jumpshare.com/preview/UjbczujceWXp7OQLB1-RNRO75DertcQms-ehikf16PUWph0BFKUJ3ahPEpC7nPatoeF-Lg7KaK0rVHGtce5Xeg9DsmUHlVGAWHa1wHKKri8");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -946,7 +904,7 @@ picture {
   content: "";
   width: 250px;
   height: 285px;
-  background-image: url("images/happy-woman.webp");
+  background-image: url("../public/images/happy-woman.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -962,7 +920,7 @@ picture {
 }
 .сonsultation__submit {
   margin: 0 auto;
-  
+
   padding: 18px 34px;
   font-size: 18px;
 }
@@ -992,7 +950,7 @@ picture {
   .consultation__wrapper-form {
     padding: 30px;
     border-radius: 20px;
-    background-image: url("images/lots-of-cars.webp");
+    background-image: url("https://i.imgur.com/U4w2Rr2.jpeg");
     background-repeat: no-repeat;
     background-position: center left 530px;
     background-size: contain;
@@ -1001,7 +959,7 @@ picture {
     display: block;
     right: -55px;
     width: 400px;
-    height: 456px;
+    height: 500px;
   }
   .сonsultation__title {
     width: 465px;
